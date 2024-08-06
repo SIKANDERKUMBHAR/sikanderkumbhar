@@ -106,6 +106,4 @@
   <img src="https://github-readme-stats.vercel.app/api?username=sikanderkumbhar&show_icons=true&locale=en" alt="sikanderkumbhar" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sikanderkumbhar&" alt="sikanderkumbhar" />
-</p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sikanderkumbhar&" alt="sikanderkumbhar" /></p>
