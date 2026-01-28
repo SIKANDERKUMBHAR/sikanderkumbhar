@@ -11,12 +11,12 @@
   - 📫 How to reach me: <strong><a href="mailto:sikanderalikumbhar1@gmail.com">sikanderalikumbhar1@gmail.com</a></strong>
 </p>
 
-<h3 align="center">Connect with me:</h3>
-<p align="center"> 
-  <a href="https;//sikanderkumbhar.com">
-    <!-- <img src="https://github-profile-trophy.vercel.app/?username=sikanderkumbhar" alt="sikanderkumbhar" /> -->
-    <h2> My Portfolio WebSite </h2>
-  </a> 
+<!-- <h3 align="center">Connect with me:</h3> -->
+<h3 align="center">🌐 Portfolio</h3>
+<p align="center">
+  <a href="https://sikanderkumbhar.com" target="_blank">
+    <strong>Visit My Portfolio Website</strong>
+  </a>
 </p>
 <p align="center">
   <a href="https://fb.com/sikanderali" target="blank">
