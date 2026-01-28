@@ -1,11 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sikander Ali</h1>
 <h3 align="center">A passionate DevOps Engineer from Karachi, Sindh, Pakistan</h3>
 
-<p align="center"> 
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=sikanderkumbhar" alt="sikanderkumbhar" />
-  </a> 
-</p>
+
 
 <p align="center">
   - 🌱 I’m currently learning: <strong>Ansible, Kubernetes</strong>
@@ -16,6 +12,12 @@
 </p>
 
 <h3 align="center">Connect with me:</h3>
+<p align="center"> 
+  <a href="https;//sikanderkumbhar.com">
+    <!-- <img src="https://github-profile-trophy.vercel.app/?username=sikanderkumbhar" alt="sikanderkumbhar" /> -->
+    <h2> My Portfolio WebSite </h2>
+  </a> 
+</p>
 <p align="center">
   <a href="https://fb.com/sikanderali" target="blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="sikander ali" height="30" width="30"/>
