@@ -1,17 +1,28 @@
 <div align="center">
 
   <!-- Futuristic Cyberpunk / Terminal Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0284c7,100:06b6d4&height=220&section=header&text=SIKANDER%20ALI&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=DevOps%20Engineer%20%7C%20Cloud%20Architect%20%7C%20Automation%20Specialist&descFontSize=20&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0284c7,100:06b6d4&height=220&section=header&text=SIKANDER%20ALI&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=DevOps%20Engineer%20%40%20SignDevops%20%7C%20Founder%20%40%20TechnoFreaks&descFontSize=20&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
 
   <!-- Animated Typing SVG with Neon / Terminal Accent -->
   <a href="https://sikanderkumbhar.com">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=650&height=50&lines=%3E+Initializing+DevOps+Core+Systems...;%3E+Architecting+Scalable+Cloud+Infrastructure;%3E+Orchestrating+Docker+%26+Kubernetes+Clusters;%3E+Automating+Zero-Downtime+CI%2FCD+Pipelines;%3E+Provisioning+Multi-Cloud+with+Terraform" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=750&height=50&lines=%3E+DevOps+Engineer+%40+SignDevops;%3E+Founder+%40+TechnoFreaks;%3E+Architecting+Scalable+Cloud+Infrastructure;%3E+Orchestrating+Docker+%26+Kubernetes+Clusters;%3E+Automating+Zero-Downtime+CI%2FCD+Pipelines;%3E+Provisioning+Multi-Cloud+with+Terraform" alt="Typing SVG" />
   </a>
 
+  <!-- Primary Roles & Connect Badges -->
   <p align="center">
+    <a href="https://signdevops.com/" target="_blank">
+      <img src="https://img.shields.io/badge/DEVOPS_ENGINEER-SignDevops-007ACC?style=for-the-badge&logo=azure-devops&logoColor=white" alt="SignDevops" />
+    </a>
+    <a href="https://technofreaks.online/" target="_blank">
+      <img src="https://img.shields.io/badge/FOUNDER-TechnoFreaks-7928CA?style=for-the-badge&logo=rocket&logoColor=white" alt="TechnoFreaks" />
+    </a>
     <a href="https://sikanderkumbhar.com" target="_blank">
       <img src="https://img.shields.io/badge/PORTFOLIO-sikanderkumbhar.com-00F2FE?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Portfolio" />
     </a>
+  </p>
+
+  <!-- Social & Telemetry Badges -->
+  <p align="center">
     <a href="https://linkedin.com/in/sikanderkumbhar" target="_blank">
       <img src="https://img.shields.io/badge/LINKEDIN-Sikander_Ali-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
@@ -35,21 +46,40 @@
 
 ```yaml
 # Sikander's Runtime Configuration
-entity:
+identity:
   name: "Sikander Ali"
-  title: "DevOps & Cloud Systems Engineer"
+  roles:
+    - title: "DevOps Engineer"
+      organization: "SignDevops"
+      url: "https://signdevops.com/"
+    - title: "Founder"
+      organization: "TechnoFreaks"
+      url: "https://technofreaks.online/"
   origin: "Karachi, Sindh, Pakistan 🇵🇰"
-  status: "🚀 Deploying resilient infrastructure & exploring automated architectures"
+  status: "🚀 Architecting cloud systems & empowering tech communities"
 
 mission:
   philosophy: "Infrastructure as Code, Automated Everything, Zero Downtime"
-  focus_areas: ["Kubernetes", "Ansible", "Cloud Security", "GitOps", "Terraform"]
+  focus_areas: ["Kubernetes", "Ansible", "Cloud Security", "GitOps", "Terraform", "AWS Architecture"]
 
 telemetry:
   uptime: "Continuous"
   target_environments: ["AWS Cloud", "Hybrid VMware", "Bare Metal Linux"]
   active_terminal: "sikanderalikumbhar1@gmail.com"
 ```
+
+---
+
+### 💼 Current Roles & Leadership
+
+<div align="center">
+
+| Role | Organization | Focus & Specialization | Web Endpoint |
+| :--- | :--- | :--- | :---: |
+| 🛡️ **DevOps Engineer** | **SignDevops** | Cloud Architecture, Container Orchestration, CI/CD Automation & SRE | [![Website](https://img.shields.io/badge/SignDevops-Visit_Site-007ACC?style=flat-square&logo=google-chrome&logoColor=white)](https://signdevops.com/) |
+| 🚀 **Founder** | **TechnoFreaks** | Tech Community Leadership, Developer Mentorship & Cloud Innovation | [![Website](https://img.shields.io/badge/TechnoFreaks-Visit_Site-7928CA?style=flat-square&logo=google-chrome&logoColor=white)](https://technofreaks.online/) |
+
+</div>
 
 ---
 
@@ -146,21 +176,15 @@ flowchart LR
 
 <div align="center">
 
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=SIKANDERKUMBHAR&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F2FE&icon_color=00F2FE&text_color=94A3B8" alt="GitHub Stats" width="410" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SIKANDERKUMBHAR&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F2FE&text_color=94A3B8" alt="Top Languages" width="370" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=SIKANDERKUMBHAR&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F2FE&ring=00F2FE&fire=00F2FE&currStreakNum=00F2FE&sideNums=38BDF8&dates=94A3B8" alt="Streak Stats" width="790" />
-      </td>
-    </tr>
-  </table>
+  <p align="center">
+    <img src="https://github-readme-stats-one-bice.vercel.app/api?username=SIKANDERKUMBHAR&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F2FE&icon_color=00F2FE&text_color=94A3B8" alt="GitHub Stats" />
+    &nbsp;
+    <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=SIKANDERKUMBHAR&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F2FE&text_color=94A3B8" alt="Top Languages" />
+  </p>
+
+  <p align="center">
+    <img src="https://streak-stats.demolab.com/?user=SIKANDERKUMBHAR&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F2FE&ring=00F2FE&fire=00F2FE&currStreakNum=00F2FE&sideNums=38BDF8&dates=94A3B8" alt="Streak Stats" />
+  </p>
 
 </div>
 
@@ -169,7 +193,7 @@ flowchart LR
 ### 🎮 Contribution Matrix (Interactive Snake)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SIKANDERKUMBHAR/SIKANDERKUMBHAR/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
+  <img src="https://raw.githubusercontent.com/SIKANDERKUMBHAR/sikanderkumbhar/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
 </div>
 
 ---
