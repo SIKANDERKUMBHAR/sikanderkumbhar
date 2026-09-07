@@ -85,31 +85,19 @@ telemetry:
 
 ### 🚀 Continuous Delivery & Infrastructure Pipeline
 
-```mermaid
-flowchart LR
-    subgraph DEV ["💻 Development"]
-        A["Code / Git"] --> B["GitHub Actions CI"]
-    end
+<div align="center">
+  <img src="assets/pipeline.svg" alt="DevOps Continuous Delivery Pipeline" width="100%" />
+</div>
 
-    subgraph CI ["⚙️ Verification & Build"]
-        B --> C["Automated Tests"]
-        C --> D["Docker Containerize"]
-        D --> E["Trivy Security Scan"]
-    end
-
-    subgraph CD ["☁️ Infrastructure & Deploy"]
-        E --> F["Terraform / Ansible"]
-        F --> G["AWS (ECS / EKS / EC2)"]
-    end
-
-    subgraph OBS ["📊 Observability"]
-        G --> H["Prometheus & Grafana"]
-        G --> I["AWS CloudWatch"]
-    end
-
-    classDef default fill:#0f172a,stroke:#00F2FE,stroke-width:1px,color:#fff;
-    classDef highlight fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#38bdf8;
-    class G,H highlight;
+```console
+┌──(sikander㉿devops-node)-[~/production-pipeline]
+├── ⚙️ [STAGE 01] Git Webhook Triggered ────➔ Commit verified & signed [main branch]
+├── 🧪 [STAGE 02] Automated Test Suites ────➔ Unit & integration tests passed (0 regressions)
+├── 🛡️ [STAGE 03] Trivy Security & SBOM ────➔ 0 Critical | 0 High CVEs detected
+├── 🐳 [STAGE 04] Docker Container Build ───➔ Multi-stage hardened image pushed to AWS ECR
+├── 🏗️ [STAGE 05] Terraform Infrastructure ──➔ Declarative IaC plan executed & state synced
+├── 🚀 [STAGE 06] Kubernetes Deployment ────➔ Rolling update completed (zero-downtime, 100% healthy)
+└── 📊 [STAGE 07] Telemetry & Monitoring ───➔ Prometheus metrics scraping & Grafana alerts active
 ```
 
 ---

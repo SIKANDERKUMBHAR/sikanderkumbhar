@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Glowing Border Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.6" />
+      <stop offset="30%" stop-color="#38BDF8" stop-opacity="0.3" />
+      <stop offset="70%" stop-color="#818CF8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#7928CA" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Card Backgrounds -->
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161e2e" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0b1120" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Arrow Gradients -->
+    <linearGradient id="arrow-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <linearGradient id="arrow-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="arrow-3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+    <linearGradient id="arrow-4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f472b6" />
+      <stop offset="100%" stop-color="#00F2FE" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .stage-num { font-size: 11px; font-weight: 700; fill: #64748b; letter-spacing: 1.5px; }
+    .stage-title { font-size: 13px; font-weight: 700; fill: #ffffff; letter-spacing: 0.5px; }
+    .stage-tool { font-size: 11.5px; font-weight: 600; fill: #38bdf8; }
+    .stage-desc { font-size: 10px; fill: #94a3b8; }
+    .stage-tag { font-size: 9px; font-weight: 700; letter-spacing: 0.5px; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="1" y="1" width="878" height="228" rx="14" fill="url(#bg-grad)" stroke="url(#border-grad)" stroke-width="1.5" />
+
+  <!-- Top Terminal Bar -->
+  <circle cx="24" cy="24" r="5" fill="#ff5f56" />
+  <circle cx="40" cy="24" r="5" fill="#ffbd2e" />
+  <circle cx="56" cy="24" r="5" fill="#27c93f" />
+
+  <text x="80" y="28" class="mono" font-size="11.5" fill="#94a3b8" font-weight="600">
+    <tspan fill="#00F2FE">sikander@infrastructure</tspan>:<tspan fill="#38bdf8">~/pipeline</tspan> $ gitops-engine --status
+  </text>
+
+  <rect x="730" y="14" width="130" height="20" rx="10" fill="#032b1e" stroke="#059669" stroke-width="1" />
+  <circle cx="742" cy="24" r="3.5" fill="#10b981" />
+  <text x="752" y="27.5" class="mono" font-size="9.5" fill="#34d399" font-weight="700">PIPELINE HEALTHY</text>
+
+  <!-- ==================== STAGE 01: SOURCE ==================== -->
+  <g transform="translate(20, 52)">
+    <rect width="144" height="152" rx="10" fill="url(#card-bg)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.8" />
+    <rect x="0" y="0" width="144" height="4" rx="2" fill="#38bdf8" />
+    <text x="14" y="24" class="mono stage-num">STAGE 01</text>
+    <text x="14" y="44" class="sans stage-title">SOURCE &amp; GIT</text>
+    <text x="14" y="66" class="mono stage-tool">Git &amp; GitHub</text>
+    <text x="14" y="86" class="sans stage-desc">Branch Strategy</text>
+    <text x="14" y="102" class="sans stage-desc">Pre-commit Hooks</text>
+    <rect x="14" y="122" width="62" height="18" rx="4" fill="#082f49" stroke="#0284c7" stroke-width="0.8" />
+    <text x="22" y="134.5" class="mono stage-tag" fill="#38bdf8">VERIFIED</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <g transform="translate(168, 120)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="url(#arrow-1)" stroke-width="2" stroke-dasharray="3,3" />
+    <polygon points="20,-4 26,0 20,4" fill="#818cf8" />
+  </g>
+
+  <!-- ==================== STAGE 02: CI & SECURITY ==================== -->
+  <g transform="translate(198, 52)">
+    <rect width="144" height="152" rx="10" fill="url(#card-bg)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.8" />
+    <rect x="0" y="0" width="144" height="4" rx="2" fill="#818cf8" />
+    <text x="14" y="24" class="mono stage-num">STAGE 02</text>
+    <text x="14" y="44" class="sans stage-title">CI &amp; SECURITY</text>
+    <text x="14" y="66" class="mono stage-tool" fill="#818cf8">Actions &amp; Trivy</text>
+    <text x="14" y="86" class="sans stage-desc">Automated Tests</text>
+    <text x="14" y="102" class="sans stage-desc">Container Scanning</text>
+    <rect x="14" y="122" width="64" height="18" rx="4" fill="#1e1b4b" stroke="#6366f1" stroke-width="0.8" />
+    <text x="22" y="134.5" class="mono stage-tag" fill="#a5b4fc">PASS (0 CVE)</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <g transform="translate(346, 120)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="url(#arrow-2)" stroke-width="2" stroke-dasharray="3,3" />
+    <polygon points="20,-4 26,0 20,4" fill="#c084fc" />
+  </g>
+
+  <!-- ==================== STAGE 03: INFRASTRUCTURE ==================== -->
+  <g transform="translate(376, 52)">
+    <rect width="144" height="152" rx="10" fill="url(#card-bg)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.8" />
+    <rect x="0" y="0" width="144" height="4" rx="2" fill="#c084fc" />
+    <text x="14" y="24" class="mono stage-num">STAGE 03</text>
+    <text x="14" y="44" class="sans stage-title">INFRASTRUCTURE</text>
+    <text x="14" y="66" class="mono stage-tool" fill="#c084fc">Terraform / IaC</text>
+    <text x="14" y="86" class="sans stage-desc">AWS VPC, ECR, IAM</text>
+    <text x="14" y="102" class="sans stage-desc">Ansible Config</text>
+    <rect x="14" y="122" width="64" height="18" rx="4" fill="#2e1065" stroke="#9333ea" stroke-width="0.8" />
+    <text x="22" y="134.5" class="mono stage-tag" fill="#d8b4fe">SYNCHRONIZED</text>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <g transform="translate(524, 120)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="url(#arrow-3)" stroke-width="2" stroke-dasharray="3,3" />
+    <polygon points="20,-4 26,0 20,4" fill="#f472b6" />
+  </g>
+
+  <!-- ==================== STAGE 04: DEPLOYMENT ==================== -->
+  <g transform="translate(554, 52)">
+    <rect width="144" height="152" rx="10" fill="url(#card-bg)" stroke="#f472b6" stroke-width="1.2" stroke-opacity="0.8" />
+    <rect x="0" y="0" width="144" height="4" rx="2" fill="#f472b6" />
+    <text x="14" y="24" class="mono stage-num">STAGE 04</text>
+    <text x="14" y="44" class="sans stage-title">ORCHESTRATION</text>
+    <text x="14" y="66" class="mono stage-tool" fill="#f472b6">K8s &amp; AWS ECS</text>
+    <text x="14" y="86" class="sans stage-desc">Rolling Deployments</text>
+    <text x="14" y="102" class="sans stage-desc">Zero-Downtime ALB</text>
+    <rect x="14" y="122" width="62" height="18" rx="4" fill="#4a044e" stroke="#c026d3" stroke-width="0.8" />
+    <text x="22" y="134.5" class="mono stage-tag" fill="#f472b6">RUNNING</text>
+  </g>
+
+  <!-- Arrow 4 -> 5 -->
+  <g transform="translate(702, 120)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="url(#arrow-4)" stroke-width="2" stroke-dasharray="3,3" />
+    <polygon points="20,-4 26,0 20,4" fill="#00F2FE" />
+  </g>
+
+  <!-- ==================== STAGE 05: OBSERVABILITY ==================== -->
+  <g transform="translate(732, 52)">
+    <rect width="130" height="152" rx="10" fill="url(#card-bg)" stroke="#00F2FE" stroke-width="1.2" stroke-opacity="0.8" />
+    <rect x="0" y="0" width="130" height="4" rx="2" fill="#00F2FE" />
+    <text x="12" y="24" class="mono stage-num">STAGE 05</text>
+    <text x="12" y="44" class="sans stage-title">OBSERVABILITY</text>
+    <text x="12" y="66" class="mono stage-tool" fill="#00F2FE">Grafana &amp; Prom</text>
+    <text x="12" y="86" class="sans stage-desc">AWS CloudWatch</text>
+    <text x="12" y="102" class="sans stage-desc">Live Telemetry</text>
+    <rect x="12" y="122" width="56" height="18" rx="4" fill="#082f49" stroke="#06b6d4" stroke-width="0.8" />
+    <text x="20" y="134.5" class="mono stage-tag" fill="#22d3ee">ACTIVE</text>
+  </g>
+</svg>
