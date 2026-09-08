@@ -181,7 +181,11 @@ telemetry:
 ### 🎮 Contribution Matrix (Interactive Snake)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SIKANDERKUMBHAR/sikanderkumbhar/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg" />
+    <img src="assets/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
+  </picture>
 </div>
 
 ---
